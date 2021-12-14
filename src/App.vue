@@ -1,26 +1,47 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div class="conteiner">
+    <Profile />
+    <Copyright />
+  </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Profile from './components/Profile.vue'
+import Copyright from './components/Copyright.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
-  }
+    Profile,
+    Copyright,
+  },
 }
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --dark-cyan: hsl(185, 75%, 39%);
+  --dark-blue: hsl(229, 23%, 23%);
+  --grayish-blue: hsl(227, 10%, 46%);
+  --dark-gray: hsl(0, 0%, 59%);
+  --white: hsl(0, 0%, 100%);
+  --kumbh: 'Kumbh Sans', sans-serif;
+  --size: 1.125rem;
+}
+
+.conteiner {
+  background-color: var(--dark-cyan);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100vw;
+  height: 100vh;
 }
 </style>

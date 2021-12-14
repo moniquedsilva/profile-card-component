@@ -1,0 +1,26 @@
+<template>
+  <div class="attribution">
+    Challenge by
+    <a
+      href="https://www.frontendmentor.io/challenges/profile-card-component-cfArpWshJ"
+      target="_blank"
+      >Frontend Mentor</a
+    >. Coded by
+    <a href="https://github.com/moniquedsilva" target="_blank">Monique Silva</a
+    >.
+  </div>
+</template>
+
+<script>
+export default {}
+</script>
+
+<style scoped>
+div,
+a {
+  font-family: var(--kumbh);
+  font-size: var(--size);
+  color: var(--dark-blue);
+  text-align: center;
+}
+</style>
