@@ -2,18 +2,21 @@
   <div class="conteiner">
     <Profile />
     <Copyright />
+    <Background />
   </div>
 </template>
 
 <script>
 import Profile from './components/Profile.vue'
 import Copyright from './components/Copyright.vue'
+import Background from './components/Background.vue'
 
 export default {
   name: 'App',
   components: {
     Profile,
     Copyright,
+    Background,
   },
 }
 </script>
@@ -36,7 +39,6 @@ export default {
 }
 
 .conteiner {
-  background-color: var(--dark-cyan);
   display: flex;
   flex-direction: column;
   align-items: center;
