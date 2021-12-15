@@ -5,13 +5,20 @@
       alt="Background Pattern"
       class="card-image"
     />
-    <article class="card-name-area">
-      <div class="card-title">
-        <h1>Victor Crest</h1>
-        <span>26</span>
-      </div>
-      <p class="card-city">London</p>
-    </article>
+    <div class="card-profile-area">
+      <img
+        src="assets/image-victor.jpg"
+        alt="Profile picture"
+        class="card-profile-img"
+      />
+      <article class="card-name-area">
+        <div class="card-title">
+          <h1>Victor Crest</h1>
+          <span>26</span>
+        </div>
+        <p class="card-city">London</p>
+      </article>
+    </div>
     <article class="card-information">
       <div class="card-subsections">
         <h2>80K</h2>
@@ -36,19 +43,42 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  align-items: center;
   height: 23.44rem;
   width: 87%;
+  position: relative;
 }
 
 @media (min-width: 24em) {
   .card {
-    width: 20.375rem;
+    width: 21.81rem;
   }
 }
 
 .card-image {
   border-radius: 15px 15px 0 0;
   width: 100%;
+}
+
+.card-profile-area {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 1.625rem;
+  position: absolute;
+  top: 4rem;
+}
+
+@media (min-width: 21em) {
+  .card-profile-area {
+    top: 5rem;
+  }
+}
+
+.card-profile-img {
+  width: max-content;
+  border-radius: 100%;
+  outline: 4px solid white;
 }
 
 .card-name-area {
