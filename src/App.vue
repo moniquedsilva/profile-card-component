@@ -47,4 +47,13 @@ export default {
   width: 100vw;
   height: 100vh;
 }
+
+@media (max-width: 24em) {
+  .conteiner {
+    background: url('/assets/bg-pattern-top.svg') bottom 35vh right 53.6vw
+        no-repeat,
+      url('/assets/bg-pattern-bottom.svg') top 34vh left 36vw no-repeat;
+    background-color: var(--dark-cyan);
+  }
+}
 </style>
