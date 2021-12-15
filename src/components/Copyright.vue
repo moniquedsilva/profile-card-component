@@ -16,6 +16,10 @@ export default {}
 </script>
 
 <style scoped>
+div {
+  width: 87%;
+}
+
 div,
 a {
   font-family: var(--kumbh);
