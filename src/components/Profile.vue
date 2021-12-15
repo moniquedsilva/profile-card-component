@@ -78,7 +78,7 @@
 .card-profile-img {
   width: max-content;
   border-radius: 100%;
-  outline: 4px solid white;
+  outline: 5px solid white;
 }
 
 .card-name-area {
