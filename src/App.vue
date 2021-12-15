@@ -2,21 +2,18 @@
   <div class="conteiner">
     <Profile />
     <Copyright />
-    <Background />
   </div>
 </template>
 
 <script>
 import Profile from './components/Profile.vue'
 import Copyright from './components/Copyright.vue'
-import Background from './components/Background.vue'
 
 export default {
   name: 'App',
   components: {
     Profile,
     Copyright,
-    Background,
   },
 }
 </script>
@@ -39,6 +36,10 @@ export default {
 }
 
 .conteiner {
+  background: url('/assets/bg-pattern-top.svg') bottom 35vh right 53.6vw
+      no-repeat,
+    url('/assets/bg-pattern-bottom.svg') top 42vh left 48vw no-repeat;
+  background-color: var(--dark-cyan);
   display: flex;
   flex-direction: column;
   align-items: center;
