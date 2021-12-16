@@ -1,5 +1,5 @@
 <template>
-  <footer role="contentinfo" class="attribution">
+  <footer class="attribution">
     Challenge by
     <a
       href="https://www.frontendmentor.io/challenges/profile-card-component-cfArpWshJ"
