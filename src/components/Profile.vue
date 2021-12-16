@@ -1,5 +1,5 @@
 <template>
-  <section class="card">
+  <div class="card">
     <img
       src="assets/bg-pattern-card.svg"
       alt="Background Pattern"
@@ -11,15 +11,15 @@
         alt="Profile picture"
         class="card-profile-img"
       />
-      <article class="card-name-area">
+      <div class="card-name-area">
         <div class="card-title">
           <h1>Victor Crest</h1>
           <span>26</span>
         </div>
         <p class="card-city">London</p>
-      </article>
+      </div>
     </div>
-    <article class="card-information">
+    <div class="card-information">
       <div class="card-subsections">
         <h2>80K</h2>
         <p>Followers</p>
@@ -32,8 +32,8 @@
         <h2>1.4K</h2>
         <p>Photos</p>
       </div>
-    </article>
-  </section>
+    </div>
+  </div>
 </template>
 
 <style>

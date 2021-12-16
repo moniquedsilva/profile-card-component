@@ -1,5 +1,5 @@
 <template>
-  <div class="attribution">
+  <footer role="contentinfo" class="attribution">
     Challenge by
     <a
       href="https://www.frontendmentor.io/challenges/profile-card-component-cfArpWshJ"
@@ -8,7 +8,7 @@
     >. Coded by
     <a href="https://github.com/moniquedsilva" target="_blank">Monique Silva</a
     >.
-  </div>
+  </footer>
 </template>
 
 <style scoped>
