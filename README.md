@@ -13,7 +13,6 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
   - [What I learned](#what-i-learned)
 - [Author](#author)
 
-
 ## Overview
 
 ### The challenge
@@ -23,7 +22,6 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 ### Screenshot
 
 ![](./screenshot.jpg)
-
 
 ### Links
 
@@ -48,4 +46,4 @@ This is my first frontendmentor project and my first project built with Vue. I'm
 
 - Linkedin - [Monique Santos](https://www.linkedin.com/in/moniquesilva95/)
 - Frontend Mentor - [@moniquedsilva](https://www.frontendmentor.io/profile/moniquedsilva)
-- Twitter - [@moniquesdsilva]https://twitter.com/moniquesdsilva)
+- Twitter - [@moniquesdsilva](https://twitter.com/moniquesdsilva)
